@@ -56,6 +56,7 @@ a{
 .mac2{
     background-color: rgb(86, 67, 208);
     color: white;
+    margin: 5rem 0;
 }
 /* #end-region-buttons */
 
@@ -169,6 +170,21 @@ p{
     width: 67%;
     text-align: center;
     line-height: 1.6;
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    width: 67%;
+    height: 80%;
+    background-color: lightcoral;
+    
 }
     
     
