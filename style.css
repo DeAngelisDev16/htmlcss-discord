@@ -5,26 +5,37 @@
    
 }
 
-.container{
-    background-color: red;
-    width: 70%;
-    height: 80%;
-    
-}
+
 
 #site-header{
     height: 50px;
-    background-color: aquamarine;
+    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .small-container{
-    background-color: orange;
     width: 67%;
     height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
+
+a{
+    margin-right: 30px;
+    color: white;
+}
+
+.accedi{
+    background-color: white;
+    padding: 10px;
+    border-radius: 40%;
+
+}
+
 
 #main-section{
     background-color: blue;
