@@ -29,12 +29,29 @@ a{
     color: white;
 }
 
+
+/* #region-buttons */
 .accedi{
     background-color: white;
     padding: 10px;
     border-radius: 40%;
 
 }
+
+.button{
+    font-size: 20px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 30%;
+    
+}
+
+.open-discord{
+    background-color: black;
+    color: white;
+}
+/* #end-region-buttons */
 
 
 #main-section{
@@ -61,15 +78,31 @@ a{
     
 
 .content-mainsection{
-    line-height: 2;
+    line-height: 1.8;
     color: white;
 }
+
+/* font-region */
 
 h1{
     font-size: 70px;
 }
 
+p{
+    font-size: 20px;
+}
 
+.col-3 > div{
+    font-size: 50px;
+}
+
+.col-3 > p{
+    font-size: 20px;
+    margin-top: 8rem;
+}
+
+
+/* #endfont-region */
 
 .section-description{
     background-color: white;
@@ -89,6 +122,7 @@ h1{
     justify-content: center;
     align-items: center;
     width: 100%;
+    gap: 4rem;
 }
 
 .col-1{
@@ -106,15 +140,15 @@ h1{
 
 .col-5{
     width: calc( (100% / 12) * 5);
-    background-color: rgb(32, 136, 239);
     height: 80%;
 }
+    
 
 .col-3{
     width: calc( (100% / 12) * 3);
-    background-color: pink;
     height: 80%;
 }
+    
 
 #main-size-section{
     background-color: lightgray;
