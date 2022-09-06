@@ -9,7 +9,7 @@
 
 #site-header{
     height: 50px;
-    background-color: blue;
+    background-color: rgba(57, 57, 246, 0.838);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,19 +38,38 @@ a{
 
 
 #main-section{
-    background-color: blue;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+    
+    
+    
+    
 
 #container-main-section{
-    background-color: rgb(237, 83, 201);
     width: 60%;
     height: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
 
 }
+    
+
+.content-mainsection{
+    line-height: 2;
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+}
+
+
 
 .section-description{
     background-color: white;
