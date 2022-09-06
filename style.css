@@ -40,7 +40,7 @@ a{
 
 .button{
     font-size: 20px;
-    padding: 1.5rem;
+    padding: 1rem;
     margin-top: 1rem;
     margin-left: 1rem;
     border-radius: 30%;
@@ -78,7 +78,7 @@ a{
     
 
 .content-mainsection{
-    line-height: 1.8;
+    line-height: 1.6;
     color: white;
 }
 
@@ -101,6 +101,16 @@ p{
     margin-top: 8rem;
 }
 
+#main-size-section > div{
+    font-size: 50px;
+}
+
+.stars{
+    font-size: 20px;
+    background-image: url("./img/stars.svg");
+    background-size: contain;
+}
+
 
 /* #endfont-region */
 
@@ -112,7 +122,7 @@ p{
 }
 
 #section-description-backgrey{
-    background-color: lightgray;
+    background-color: #f2f2f2;
     height: 600px;
     display: flex;
 }
@@ -125,17 +135,7 @@ p{
     gap: 4rem;
 }
 
-.col-1{
-    width: calc( (100% / 12) * 1);
-    background-color: rgb(87, 171, 199);
-    height: 90%;
-}
 
-.col-2{
-    width: calc( (100% / 12) * 2);
-    background-color: rgb(241, 122, 213);
-    height: 90%;
-}
 
 
 .col-5{
@@ -151,28 +151,24 @@ p{
     
 
 #main-size-section{
-    background-color: lightgray;
-    height: 800px;
+    background-color: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .green-container{
-    background-color: green;
     width: 67%;
-    height: 80%;
-    
-    
+    text-align: center;
+    line-height: 1.6;
 }
+    
+    
+    
+    
 
-#site-footer{
-    background-color: black;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 
