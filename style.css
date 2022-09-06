@@ -25,7 +25,7 @@
     
 }
 
-a{
+.link > a{
     margin-right: 30px;
     color: white;
 }
@@ -119,6 +119,14 @@ p{
     font-weight: 700;
 }
 
+.col-3 > h2, h4{
+    color: rgb(86, 67, 208);
+
+}
+
+.col-3 > a{
+    color:white;
+}
 
 /* #endfont-region */
 
@@ -183,9 +191,18 @@ footer{
 .footer-container{
     width: 67%;
     height: 80%;
-    background-color: lightcoral;
+    
     
 }
+
+.row-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    
+}
+        
     
     
     
